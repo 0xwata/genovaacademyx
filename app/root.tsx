@@ -1,3 +1,4 @@
+import '@mantine/core/styles.css';
 import {
   Links,
   Meta,
@@ -6,6 +7,8 @@ import {
   ScrollRestoration,
 } from "@remix-run/react";
 import "./tailwind.css";
+import { ColorSchemeScript, MantineProvider } from '@mantine/core';
+import CustomAppShell from "@/components/app-shell";
 
 export function Layout({ children }: { children: React.ReactNode }) {
   return (
@@ -17,7 +20,9 @@ export function Layout({ children }: { children: React.ReactNode }) {
         <Links />
       </head>
       <body>
-        {children}
+        <MantineProvider>
+          <CustomAppShell main={children} />
+        </MantineProvider>
         <ScrollRestoration />
         <Scripts />
       </body>
