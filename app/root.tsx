@@ -9,6 +9,7 @@ import {
 import "./tailwind.css";
 import { ColorSchemeScript, MantineProvider } from '@mantine/core';
 import CustomAppShell from "@/components/app-shell";
+import { SpeedInsights } from "@vercel/speed-insights/remix"
 
 export function Layout({ children }: { children: React.ReactNode }) {
   return (
@@ -22,6 +23,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
       <body>
         <MantineProvider>
           <CustomAppShell main={children} />
+          <SpeedInsights />
         </MantineProvider>
         <ScrollRestoration />
         <Scripts />
