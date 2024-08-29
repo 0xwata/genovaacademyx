@@ -3,7 +3,7 @@
 - 📖 [Remix docs](https://remix.run/docs)
 
 
-技術選定 / 言語・フレームワーク
+## Technology Stack / Languages & Frameworks
 | Heading | Item |
 | --- | --- |
 | Language | *typescript* |
