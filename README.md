@@ -1,9 +1,9 @@
 # Welcome to Remix!
 
-- 📖 [Remix docs](https://remix.run/docs)
+- 📖 [Remix docs](https://remix.run/docs) 
 
 
-## Technology Stack / Languages & Frameworks
+## Technology Stack / Languages & Frameworks 🔥
 | Heading | Item |
 | --- | --- |
 | Language | *typescript* |
@@ -18,7 +18,7 @@
 | Database | *supabase* |
 | Hosting Service | *cloudflare-pages / vercel* |
 
-## Development
+## Development 🔨
 
 Run the dev server:
 
@@ -26,7 +26,7 @@ Run the dev server:
 bun run dev
 ```
 
-## Deployment
+## Deployment 🚀
 
 First, build your app for production:
 
@@ -51,6 +51,6 @@ Make sure to deploy the output of `bun run build`
 - `build/server`
 - `build/client`
 
-## Styling
+## Styling 🎨
 
 This template comes with [Tailwind CSS](https://tailwindcss.com/) already configured for a simple default starting experience. You can use whatever css framework you prefer. See the [Vite docs on css](https://vitejs.dev/guide/features.html#css) for more information.
